@@ -1,0 +1,22 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+.default-dark {
+  background-color: #191919;
+}
+
+.gradient-dark {
+  background-image: linear-gradient(to top right, #070707, #2b2b2b);
+}
+
+.main-name {
+  color: #ffa559;
+}
+
+.text-skills {
+  color: #ff6000;
+}
+
+.main-img {
+  width: 350px;
+}
