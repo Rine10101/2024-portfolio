@@ -29,18 +29,18 @@
 .timeline {
   position: relative;
   max-width: 1200px;
-  margin: 100px auto;
+  margin: 90px auto;
 }
 
 .tml-container {
-  padding: 10px 50px;
+  padding: 10px 40px;
   position: relative;
   width: 50%;
 }
 
 .tml-textbox {
-  padding: 20px 30px;
-  background-color: #191919;
+  padding: 16px 26px;
+  background-color: #121212;
   position: relative;
   border-radius: 6px;
   font-size: 15px;
@@ -84,7 +84,7 @@
   z-index: 1;
 }
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 768px) {
   .timeline {
     margin: 50px auto;
   }
@@ -99,6 +99,10 @@
   }
   .tml-textbox {
     font-size: 13px;
+    padding: 10px 20px;
+  }
+  .tml-textbox-heading {
+    font-size: 20px;
   }
   .tml-textbox small {
     margin-bottom: 10px;
@@ -108,6 +112,9 @@
   }
   .left-container img,
   .right-container img {
-    left: 10px;
+    left: 5px;
   }
+}
+
+@media screen and (max-width: 425px) {
 }
