@@ -9,6 +9,10 @@
   background-image: linear-gradient(to top right, #070707, #2b2b2b);
 }
 
+.solid-dark {
+  background-color: #070707;
+}
+
 .main-name {
   color: #ffa559;
 }
@@ -19,4 +23,91 @@
 
 .main-img {
   width: 350px;
+}
+
+/* timeline */
+.timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 100px auto;
+}
+
+.tml-container {
+  padding: 10px 50px;
+  position: relative;
+  width: 50%;
+}
+
+.tml-textbox {
+  padding: 20px 30px;
+  background-color: #191919;
+  position: relative;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+.tml-textbox-heading {
+  color: #ffa559;
+}
+.left-container {
+  left: 0;
+}
+
+.right-container {
+  left: 50%;
+}
+
+.tml-container img {
+  position: absolute;
+  width: 50px;
+  border-radius: 50%;
+  border: solid 2px #ffa559;
+  right: -26px;
+  top: 32px;
+  z-index: 10;
+}
+
+.right-container img {
+  left: -26px;
+}
+
+.timeline::after {
+  content: "";
+  position: absolute;
+  width: 6px;
+  height: 100%;
+  border-radius: 10px;
+  background: #ffa559;
+  top: 0;
+  left: 50%;
+  margin-left: -3px;
+  z-index: 1;
+}
+
+@media screen and (max-width: 760px) {
+  .timeline {
+    margin: 50px auto;
+  }
+
+  .timeline::after {
+    left: 31px;
+  }
+  .tml-container {
+    width: 100%;
+    padding-left: 80px;
+    padding-right: 25px;
+  }
+  .tml-textbox {
+    font-size: 13px;
+  }
+  .tml-textbox small {
+    margin-bottom: 10px;
+  }
+  .right-container {
+    left: 0;
+  }
+  .left-container img,
+  .right-container img {
+    left: 10px;
+  }
 }
