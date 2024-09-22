@@ -14,7 +14,7 @@
 }
 
 .main-name {
-  font-size: 44px;
+  font-size: 38px;
   font-weight: bold;
 }
 .sdr-clr {
@@ -137,6 +137,42 @@
   .main-img {
     width: 240px;
   }
+  .main-name {
+    font-size: 28px;
+  }
 }
 
 /* project carousel ////////////////////////// */
+.LUNA-logo {
+  height: 80px;
+}
+.LUNA-brand {
+  height: 62px;
+}
+
+.tech-icon {
+  height: 60px;
+}
+
+.carou-size {
+  width: 200px;
+}
+.showcase-content {
+  width: 720px;
+}
+
+.team-icon {
+  height: 70px;
+}
+.dark-box {
+  background-color: #121212;
+}
+
+@media screen and (max-width: 425px) {
+  .LUNA-logo {
+    height: 60px;
+  }
+  .LUNA-brand {
+    height: 50px;
+  }
+}
