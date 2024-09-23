@@ -157,12 +157,15 @@
 .carou-size {
   width: 200px;
 }
+.showcase-container {
+  width: 300px;
+}
 .showcase-content {
   width: 720px;
 }
 
 .team-icon {
-  height: 70px;
+  height: 64px;
 }
 .dark-box {
   background-color: #121212;
