@@ -152,6 +152,7 @@
 
 .tech-icon {
   height: 56px;
+  border-radius: 4px;
 }
 
 .carou-size {
@@ -167,8 +168,14 @@
 .team-icon {
   height: 64px;
 }
+.team-icon:hover {
+  outline: 4px solid#ff822c;
+}
 .dark-box {
   background-color: #121212;
+}
+.text-justify {
+  text-align: justify;
 }
 
 @media screen and (max-width: 425px) {
