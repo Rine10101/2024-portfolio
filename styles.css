@@ -13,6 +13,14 @@
   background-color: #070707;
 }
 
+.navbar-gradient {
+  background: rgb(18, 18, 18);
+  background: linear-gradient(
+    180deg,
+    rgba(18, 18, 18, 1) 0%,
+    rgba(255, 255, 255, 0) 66%
+  );
+}
 .main-name {
   font-size: 38px;
   font-weight: bold;
@@ -26,6 +34,10 @@
 }
 .text-skills {
   color: #ff6000;
+}
+
+.hero-sec {
+  padding-top: 62px;
 }
 
 .main-img {
@@ -172,7 +184,7 @@
   outline: 4px solid#ff822c;
 }
 .dark-box {
-  background-color: #121212;
+  background-color: rgba(0, 0, 0, 0.4);
 }
 .text-justify {
   text-align: justify;
@@ -185,4 +197,20 @@
   .LUNA-brand {
     height: 50px;
   }
+}
+
+.luna-sec {
+  position: relative;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.bg-video-luna {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
 }

@@ -29,13 +29,17 @@
   <body>
     <header>
       <!-- navigation bar /////////////////////////////////////////////////////////////////////////////////////////////////////-->
-      <nav class="navbar navbar-expand-lg default-dark shadow py-0">
-        <div class="container">
-          <a href="#hero" class="navbar-brand" style="color: #ff822c"
-            ><h1>Rine</h1></a
+      <nav class="navbar navbar-expand-lg shadow py-0">
+        <div class="container-fluid fixed-top navbar-gradient">
+          <a
+            href="#hero"
+            class="navbar-brand ms-2 ms-md-5 pt-2"
+            style="color: #ff822c"
           >
+            <h1 class="mb-0">Rine</h1>
+          </a>
           <button
-            class="navbar-toggler"
+            class="navbar-toggler me-2 me-md-5 mt-2"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbar-main"
@@ -44,23 +48,23 @@
           </button>
 
           <div
-            class="collapse navbar-collapse justify-content-end"
+            class="collapse me-5 navbar-collapse justify-content-end"
             id="navbar-main"
           >
             <ul class="navbar-nav text-center">
               <li class="nav-item">
                 <a href="#e/e" class="nav-link text-light px-4"
-                  ><h5>Education & Experience</h5></a
+                  ><h5 class="mb-0">Education & Experience</h5></a
                 >
               </li>
               <li class="nav-item">
                 <a href="#projects" class="nav-link text-light px-4"
-                  ><h5>Projects</h5></a
+                  ><h5 class="mb-0">Projects</h5></a
                 >
               </li>
               <li class="nav-item">
                 <a href="" class="nav-link text-light px-4"
-                  ><h5>Personal</h5></a
+                  ><h5 class="mb-0">Personal</h5></a
                 >
               </li>
             </ul>
@@ -70,8 +74,8 @@
     </header>
     <main>
       <!-- hero section //////////////////////////////////////////////////////////////////////////////////////////////////////////-->
-      <section class="py-4 gradient-dark text-light" id="hero">
-        <div class="container py-5">
+      <section class="pb-4 text-light gradient-dark hero-sec" id="hero">
+        <div class="container hero-contain py-5">
           <div class="row gy-1">
             <div
               class="col-lg d-flex align-items-center d-lg-flex d-none justify-content-center"
@@ -250,14 +254,14 @@
                 <h6 class="mb-2">
                   <em>Iba South Central Elementary School</em>
                 </h6>
-                <p class="text-skills mb-1 py-1">2014 - 2020</p>
+                <p class="text-skills mb-1 py-1">2008 - 2014</p>
               </div>
             </div>
           </div>
         </div>
       </section>
       <!-- projects section ///////////////////////////////////////////////////////////////////////////////////////////////////-->
-      <section class="pb-5 solid-dark" id="projects">
+      <section class="pb-5 luna-sec" id="projects">
         <div class="container text-light">
           <h1 class="sdr-clr fw-bold text-center py-5">PROJECTS</h1>
           <div class="py-5">
@@ -310,9 +314,7 @@
                     ></button>
                   </div>
                   <!-- item 1 ////////////////////////////////////////////////-->
-                  <div
-                    class="carousel-inner rounded-4 border border-primary my-2 my-lg-0"
-                  >
+                  <div class="carousel-inner rounded-4 my-2 my-lg-0">
                     <div class="carousel-item active">
                       <video
                         src="rsrc/projects-section/LUNA/luna-menu.mp4"
@@ -598,6 +600,13 @@
             </div>
           </div>
         </div>
+        <video
+          autoplay
+          muted
+          loop
+          class="bg-video-luna"
+          src="rsrc/Project-Section-Bg.mp4"
+        ></video>
       </section>
     </main>
     <footer>
