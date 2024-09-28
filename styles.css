@@ -162,6 +162,18 @@
   height: 62px;
 }
 
+.luna-clr-1 {
+  color: #9f95ff;
+}
+
+.luna-clr-2 {
+  color: #7a52ff;
+}
+
+.luna-clr-3 {
+  color: #7018ff;
+}
+
 .tech-icon {
   height: 56px;
   border-radius: 4px;
@@ -202,7 +214,7 @@
 .luna-sec {
   position: relative;
   overflow: hidden;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
 .bg-video-luna {
