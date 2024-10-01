@@ -143,6 +143,10 @@
   .right-container img {
     left: 5px;
   }
+
+  .tech-logo {
+    width: 20px;
+  }
 }
 
 @media screen and (max-width: 425px) {
@@ -209,6 +213,10 @@
   .LUNA-brand {
     height: 50px;
   }
+
+  .tech-logo {
+    width: 20px;
+  }
 }
 
 .luna-sec {
@@ -228,9 +236,18 @@
 }
 
 .tech-logo {
-  width: 96px;
+  width: 62px;
+  transition: transform 0.3s;
 }
+.tech-logo:hover {
+  transform: scale(1.1);
+}
+
 .tech-container {
-  width: 620px;
+  width: 400px;
   text-align: center;
+}
+
+.overflower {
+  overflow: visible;
 }
