@@ -14,11 +14,10 @@
 }
 
 .navbar-gradient {
-  background: rgb(18, 18, 18);
   background: linear-gradient(
     180deg,
-    rgba(18, 18, 18, 1) 0%,
-    rgba(255, 255, 255, 0) 66%
+    rgba(10, 10, 10, 1) 0%,
+    rgba(0, 0, 0, 0) 100%
   );
 }
 .main-name {
@@ -38,6 +37,11 @@
 
 .hero-sec {
   padding-top: 62px;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0) 90%,
+    rgba(10, 10, 10, 1) 100%
+  );
 }
 
 .main-img {
@@ -218,14 +222,23 @@
     width: 20px;
   }
 }
-
 .luna-sec {
+  background: linear-gradient(
+    180deg,
+    rgba(10, 10, 10, 1) 0%,
+    rgba(7, 7, 7, 0) 20%,
+    rgba(0, 0, 0, 0) 50%,
+    rgba(0, 0, 0, 0) 80%,
+    rgba(10, 10, 10, 1) 100%
+  );
+}
+.bg-video-section {
   position: relative;
   overflow: hidden;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
-.bg-video-luna {
+.bg-video {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -234,7 +247,10 @@
   min-height: 100%;
   z-index: -1;
 }
-
+.hero-video,
+.luna-video {
+  filter: blur(2px);
+}
 .tech-logo {
   width: 62px;
   transition: transform 0.3s;
