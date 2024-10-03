@@ -55,6 +55,14 @@
 .inst-link {
   text-decoration: none;
 }
+
+.about-sec {
+  background-image: url("rsrc/about-section/about-bg.svg");
+  background-position: center;
+  background-attachment: scroll;
+  background-repeat: none;
+  background-size: cover;
+}
 /* timeline */
 .timeline {
   position: relative;
@@ -235,7 +243,7 @@
 .bg-video-section {
   position: relative;
   overflow: hidden;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
 .bg-video {
