@@ -20,6 +20,15 @@
     rgba(0, 0, 0, 0) 100%
   );
 }
+
+.navtext {
+  transition: transform 0.3s, color 0.1s;
+}
+.navtext:hover {
+  transform: scale(1.1);
+  color: #ffa559;
+}
+
 .main-name {
   font-size: 38px;
   font-weight: bold;
@@ -52,10 +61,26 @@
   padding-top: 80px;
   padding-bottom: 80px;
 }
+
 .inst-link {
   text-decoration: none;
 }
 
+.socials_ {
+  transition: color 0.3s;
+}
+.fb:hover {
+  color: #4267b2;
+}
+.lkin:hover {
+  color: #0077b5;
+}
+.ghub:hover {
+  color: #2dba4e;
+}
+.dcord:hover {
+  color: #7289d9;
+}
 .about-sec {
   background-image: url("rsrc/about-section/about-bg.svg");
   background-position: center;
@@ -63,6 +88,15 @@
   background-repeat: none;
   background-size: cover;
 }
+
+.tech-logo {
+  width: 62px;
+  transition: transform 0.3s;
+}
+.tech-logo:hover {
+  transform: scale(1.1);
+}
+
 /* timeline */
 .timeline {
   position: relative;
@@ -193,6 +227,10 @@
 .tech-icon {
   height: 56px;
   border-radius: 4px;
+  transition: transform 0.3s;
+}
+.tech-icon:hover {
+  transform: scale(1.1);
 }
 
 .carou-size {
@@ -207,10 +245,13 @@
 
 .team-icon {
   height: 64px;
+  transition: transform 0.3s;
 }
 .team-icon:hover {
-  outline: 4px solid#ff822c;
+  outline: 2px solid#ff822c;
+  transform: scale(1.1);
 }
+
 .dark-box {
   background-color: rgba(0, 0, 0, 0.4);
 }
@@ -258,13 +299,6 @@
 .hero-video,
 .luna-video {
   filter: blur(2px);
-}
-.tech-logo {
-  width: 62px;
-  transition: transform 0.3s;
-}
-.tech-logo:hover {
-  transform: scale(1.1);
 }
 
 .tech-container {
