@@ -1,3 +1,9 @@
+:root {
+  --primaryColor: #ffa559;
+  --secondaryColor: #ff822c;
+  --tertiaryColor: #ff6000;
+}
+
 * {
   font-family: "Poppins", sans-serif;
 }
@@ -26,7 +32,7 @@
 }
 .navtext:hover {
   transform: scale(1.1);
-  color: #ffa559;
+  color: var(--primaryColor);
 }
 
 .main-name {
@@ -34,14 +40,14 @@
   font-weight: bold;
 }
 .sdr-clr {
-  color: #ffa559;
+  color: var(--primaryColor);
 }
 
 .clr-mid {
-  color: #ff822c;
+  color: var(--secondaryColor);
 }
 .text-skills {
-  color: #ff6000;
+  color: var(--tertiaryColor);
 }
 
 .hero-sec {
