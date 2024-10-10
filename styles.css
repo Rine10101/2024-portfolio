@@ -163,51 +163,25 @@
   z-index: 1;
 }
 
-@media screen and (max-width: 768px) {
-  .timeline {
-    margin: 50px auto;
-  }
-
-  .timeline::after {
-    left: 31px;
-  }
-  .tml-container {
-    width: 100%;
-    padding-left: 80px;
-    padding-right: 25px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-  }
-  .tml-textbox {
-    font-size: 13px;
-    padding: 10px 20px;
-  }
-  .tml-textbox-heading {
-    font-size: 20px;
-  }
-  .tml-textbox small {
-    margin-bottom: 10px;
-  }
-  .right-container {
-    left: 0;
-  }
-  .left-container img,
-  .right-container img {
-    left: 5px;
-  }
-
-  .tech-logo {
-    width: 40px;
-  }
+.skills-section {
+  background-image: url("rsrc/skills-section/skills-bg.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: none;
+  background-size: cover;
 }
 
-@media screen and (max-width: 425px) {
-  .main-img {
-    width: 240px;
-  }
-  .main-name {
-    font-size: 28px;
-  }
+.skill-box {
+  width: 166px;
+  padding: 24px 8px;
+  margin: 0 8px;
+  background-image: linear-gradient(to top right, #111111, #1d1d1d);
+  border: solid 2px #252525;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.skill-box p {
+  padding: 24px 16px;
+  margin: 0px;
 }
 
 /* project carousel ////////////////////////// */
@@ -265,18 +239,6 @@
   text-align: justify;
 }
 
-@media screen and (max-width: 425px) {
-  .LUNA-logo {
-    height: 60px;
-  }
-  .LUNA-brand {
-    height: 50px;
-  }
-
-  .tech-logo {
-    width: 54px;
-  }
-}
 .luna-sec {
   background: linear-gradient(
     180deg,
@@ -314,4 +276,89 @@
 
 .overflower {
   overflow: visible;
+}
+
+/* Medium screens */
+@media screen and (max-width: 768px) {
+  /* timeline section */
+  .timeline {
+    margin: 50px auto;
+  }
+
+  .timeline::after {
+    left: 31px;
+  }
+  .tml-container {
+    width: 100%;
+    padding-left: 80px;
+    padding-right: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .tml-textbox {
+    font-size: 13px;
+    padding: 10px 20px;
+  }
+  .tml-textbox-heading {
+    font-size: 20px;
+  }
+  .tml-textbox small {
+    margin-bottom: 10px;
+  }
+  .right-container {
+    left: 0;
+  }
+  .left-container img,
+  .right-container img {
+    left: 5px;
+  }
+
+  /* skills section */
+  .skill-box {
+    width: 110px;
+    padding: 8px 16px;
+    margin: 0 4px;
+    font-size: 10px;
+    padding: 16px;
+  }
+
+  .skill-box p {
+    padding: 14px 10px;
+    margin: 0px;
+  }
+
+  .tech-logo {
+    width: 40px;
+  }
+}
+
+/* Small screens */
+@media screen and (max-width: 425px) {
+  /* Hero section */
+  .main-img {
+    width: 240px;
+  }
+  .main-name {
+    font-size: 28px;
+  }
+
+  /* skills section */
+  .skill-box {
+    width: 75px;
+    padding: 6px 12px;
+    margin: 0 4px;
+    font-size: 10px;
+  }
+
+  .tech-logo {
+    width: 40px;
+  }
+
+  /* project section */
+  .LUNA-logo {
+    height: 60px;
+  }
+  .LUNA-brand {
+    height: 50px;
+  }
 }
